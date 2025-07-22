@@ -1,6 +1,3 @@
-Here’s a professional and recruiter-friendly `README.md` description for your **Smart Login Risk Score Generator** project — tailored for your resume/GitHub:
-
----
 
 ## 🔐 Smart Login Risk Score Generator
 
