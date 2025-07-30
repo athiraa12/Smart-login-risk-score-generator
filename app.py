@@ -13,7 +13,7 @@ st.title("🔐 Smart Login Risk Score Generator Dashboard")
 def load_data():
     # Replace this with your actual test DataFrame
     # Example: pd.read_csv("scored_login_predictions.csv")
-    return pd.read_csv("dataset/ scored_login_predictions.csv")
+    return pd.read_csv("dataset/scored_login_predictions.csv")
 
 
 df = load_data()
