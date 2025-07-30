@@ -11,7 +11,6 @@ st.title("🔐 Smart Login Risk Score Generator Dashboard")
 # Load your DataFrame (replace with your own CSV if needed)
 @st.cache_data
 def load_data():
-    pd.read_csv("dataset/scored_login_predictions.csv")
     return pd.read_csv("dataset/scored_login_predictions.csv")
 
 
