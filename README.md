@@ -4,18 +4,22 @@
 A **data-driven anomaly detection system** that analyzes login activity and assigns a real-time **risk score** to each login attempt. Designed to flag suspicious behavior using user metadata and ML-based risk prediction — a practical cybersecurity project to showcase **Pandas, Scikit-learn, and SQL** skills.
 
 ---
-
-### 📊 Features
-
-* ✅ Analyzes login patterns from structured CSV data
-* 🧠 Machine Learning model (Random Forest) predicts suspicious logins
-* 📈 Precision-Recall curve used for custom threshold setting
-* 🔢 Generates a **Risk Score (0–100%)** for each login
-* 💡 Clean dashboard using **Streamlit** for easy visualization
+### Try It Out
+Explore the live Streamlit app:  https://smart-app-risk-score-generator-ijzfligpxkjqkoivrbfpg2.streamlit.app/
 
 ---
 
-### 💻 Tech Stack
+### Features
+
+*  Analyzes login patterns from structured CSV data
+*  Machine Learning model (Random Forest) predicts suspicious logins
+*  Precision-Recall curve used for custom threshold setting
+*  Generates a **Risk Score (0–100%)** for each login
+*  Clean dashboard using **Streamlit** for easy visualization
+
+---
+
+### Tech Stack
 
 * **Python** (Pandas, NumPy, Matplotlib, Scikit-learn)
 * **Streamlit** for UI
@@ -24,7 +28,7 @@ A **data-driven anomaly detection system** that analyzes login activity and assi
 
 ---
 
-### 📁 Dataset
+### 📁Dataset
 
 Custom-built dataset with:
 
@@ -35,7 +39,7 @@ Custom-built dataset with:
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 ```bash
 streamlit run app.py
@@ -45,7 +49,7 @@ Then open the browser tab to view the login risk detection dashboard.
 
 ---
 
-### 🎯 Use Case
+### Use Case
 
 Can be extended for:
 
